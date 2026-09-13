@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # create-valaxy
 
 Example: [valaxy.site](https://valaxy.site)
@@ -49,3 +50,7 @@ In most cases, you only need to work in the `pages` folder.
 - `.github`: GitHub Actions to auto build & deploy to GitHub Pages
 - `netlify.toml`: for [netlify](https://www.netlify.com/)
 - `vercel.json`: for [vercel](https://vercel.com/)
+=======
+# vue3-text
+vue3学习
+>>>>>>> 97f168bc089528d424a935d939cc346640bb1309
