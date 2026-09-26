@@ -17,12 +17,12 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: '阿凯的Notes',
     },
 
     pages: [
       {
-        name: '我的小伙伴们',
+        name: '我的伙伴',
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
@@ -37,10 +37,15 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       since: 2016,
+      // 主题默认会显示一个指向云游君赞助页的云图标，先关掉。
+      // TODO: 换成自己的仓库/主页后改回 enable: true 并填 url 和 title
+      icon: {
+        enable: false,
+      },
       beian: {
-        enable: true,
-        icp: '苏ICP备17038157号',
-        police: '苏公网安备xxxxxx号',
+        enable: false,
+        icp: '苏ICP备xxxxxx号',
+        police: '苏公网安备 xxxxxxx号',
       },
     },
   },

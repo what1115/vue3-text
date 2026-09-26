@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-# create-valaxy
+# xu520
 
 Example: [valaxy.site](https://valaxy.site)
+
+基于 Valaxy 的个人博客项目，记录 vue3 学习笔记与日常随笔。
 
 ## Usage
 
@@ -50,7 +51,3 @@ In most cases, you only need to work in the `pages` folder.
 - `.github`: GitHub Actions to auto build & deploy to GitHub Pages
 - `netlify.toml`: for [netlify](https://www.netlify.com/)
 - `vercel.json`: for [vercel](https://vercel.com/)
-=======
-# vue3-text
-vue3学习
->>>>>>> 97f168bc089528d424a935d939cc346640bb1309

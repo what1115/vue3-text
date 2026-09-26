@@ -1,8 +1,8 @@
 ---
-title: 我的小伙伴们
+title: 我的预选位
 keywords: 链接
-description: 云游的小伙伴们
-links: https://friends.yunyoujun.cn/links.json
+description: 阿凯的伙伴
+# links: https://friends.yunyoujun.cn/links.json
 random: true
 ---
 
