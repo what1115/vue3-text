@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/what1115/vue3-text/</id>
+    <title>阿凯的笔记本</title>
+    <updated>2026-10-03T13:54:48.394Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>阿凯</name>
+        <email>27005063137@qq.com</email>
+        <uri>https://what1115.github.io/</uri>
+    </author>
+    <link rel="alternate" href="https://github.com/what1115/vue3-text/"/>
+    <link rel="self" href="https://github.com/what1115/vue3-text/atom.xml"/>
+    <subtitle>记录生活、技术与思考</subtitle>
+    <logo>https://valaxy.site/valaxy-logo.png</logo>
+    <icon>https://github.com/what1115/vue3-text/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © 阿凯</rights>
+    <entry>
+        <title type="html"><![CDATA[数据库MySQL 练习]]></title>
+        <id>https://github.com/what1115/vue3-text/posts/MySQL 练习</id>
+        <link href="https://github.com/what1115/vue3-text/posts/MySQL 练习"/>
+        <updated>2026-09-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>查询所有数据库</h1>
+<pre><code>show databases ;
+</code></pre>
+<h1>切换数据库</h1>
+<pre><code>use  test;
+</code></pre>
+<h1>查询当前正在使用的数据库</h1>
+<pre><code>select datab</code></pre>
+<br/><p>访问 <a href="https://github.com/what1115/vue3-text/posts/MySQL 练习" target="_blank">https://github.com/what1115/vue3-text/posts/MySQL 练习</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>阿凯</name>
+            <email>27005063137@qq.com</email>
+            <uri>https://what1115.github.io/</uri>
+        </author>
+        <published>2026-09-27T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月圆之夜]]></title>
+        <id>https://github.com/what1115/vue3-text/posts/2026年中秋节</id>
+        <link href="https://github.com/what1115/vue3-text/posts/2026年中秋节"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>中秋 月圆之夜</h1>
+<ul>
+<li>本应该是和家人团圆的日子，不过学校没有连放假期，若是这次回家了，三天后又需要赶回来上三天的课程。---&gt; 所以决定国庆7天大长假期再回家吧，为我的小钱包省下一笔开销！<br>
+![音</li>
+</ul>
+<br/><p>访问 <a href="https://github.com/what1115/vue3-text/posts/2026年中秋节" target="_blank">https://github.com/what1115/vue3-text/posts/2026年中秋节</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>阿凯</name>
+            <email>27005063137@qq.com</email>
+            <uri>https://what1115.github.io/</uri>
+        </author>
+        <published>2026-09-26T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[java学习]]></title>
+        <id>https://github.com/what1115/vue3-text/posts/JAVA_JDBC</id>
+        <link href="https://github.com/what1115/vue3-text/posts/JAVA_JDBC"/>
+        <updated>2026-09-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>Java 初步使用JDBC 操作数据库</h1>
+<h3>数据库连接参数</h3>
+<pre><code>String url = &quot;jdbc:mysql://localhost:3306/test&quot;;
+String user</code></pre>
+<br/><p>访问 <a href="https://github.com/what1115/vue3-text/posts/JAVA_JDBC" target="_blank">https://github.com/what1115/vue3-text/posts/JAVA_JDBC</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>阿凯</name>
+            <email>27005063137@qq.com</email>
+            <uri>https://what1115.github.io/</uri>
+        </author>
+        <published>2026-09-25T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇文章]]></title>
+        <id>https://github.com/what1115/vue3-text/posts/hello-world</id>
+        <link href="https://github.com/what1115/vue3-text/posts/hello-world"/>
+        <updated>2026-09-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>你好，世界</h2>
+<p>这是我的第一篇博客文章，用 <strong>Markdown</strong> 写的。</p>
+<ul>
+<li>支持列表</li>
+<li>支持 <code>代码</code></li>
+<li>支持 <a href="https://valaxy.site">链接</a></li>
+</ul>
+<br/><p>访问 <a href="https://github.com/what1115/vue3-text/posts/hello-world" target="_blank">https://github.com/what1115/vue3-text/posts/hello-world</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>阿凯</name>
+            <email>27005063137@qq.com</email>
+            <uri>https://what1115.github.io/</uri>
+        </author>
+        <published>2026-09-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://github.com/what1115/vue3-text/posts/hello-valaxy</id>
+        <link href="https://github.com/what1115/vue3-text/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://github.com/what1115/vue3-text/posts/hello-valaxy" target="_blank">https://github.com/what1115/vue3-text/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>阿凯</name>
+            <email>27005063137@qq.com</email>
+            <uri>https://what1115.github.io/</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>
