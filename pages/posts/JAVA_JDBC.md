@@ -1,10 +1,17 @@
 
+---
+title: java学习
+date: 2026-09-25
+tags:
+  - 学习
+---
+
 # Java 初步使用JDBC 操作数据库
 
 ### 数据库连接参数
 ```
-String url = "jdbc:mysql://localhost:3306/test";   
-String username = "root";  
+String url = "jdbc:mysql://localhost:3306/test";
+String username = "root";
 String password = "123456";
 ```
 - `url`：JDBC 连接地址，`localhost:3306` 是 MySQL 默认主机和端口，`test` 是数据库名
@@ -26,7 +33,7 @@ ResultSet rs = null;
 | `ResultSet`         | 查询结果集，类似一个游标，逐行读取数据                |
 ### 核心业务逻辑
 
-#### 获取连接  
+#### 获取连接
 - `数据库驱动 `
 ```
 conn = DriverManager.getConnection(url, username, password);
@@ -84,63 +91,63 @@ emp.setIsDeleted(rs.getInt("is_deleted"));
 > Emp类
 > 添加
 > @Data  // 自动添加get set 方法
-> @AllArgsConstructor // 自动添加全参构造 
+> @AllArgsConstructor // 自动添加全参构造
 > @NoArgsConstructor // 自动添加无参构造
 
 ```
-@Data  
-@AllArgsConstructor  
-@NoArgsConstructor  
-public class Emp {  
-    /** 主键 */  
-    private Long id;  
-  
-    /** 工号 */  
-    private String employeeNo;  
-  
-    /** 姓名 */  
-    private String name;  
-  
-    /** 性别：0-未知 1-男 2-女 */  
-    private Integer gender;  
-  
-    /** 出生日期 */  
-    private LocalDate birthDate;  
-  
-    /** 身份证号 */  
-    private String idCard;  
-  
-    /** 手机号码 */  
-    private String phone;  
-  
-    /** 邮箱 */  
-    private String email;  
-  
-    /** 部门ID */  
-    private Long departmentId;  
-  
-    /** 职位 */  
-    private String position;  
-  
-    /** 入职日期 */  
-    private LocalDate hireDate;  
-  
-    /** 基本工资 */  
-    private BigDecimal salary;  
-  
-    /** 离职日期 */  
-    private LocalDate terminationDate;  
-  
-    /** 创建时间 */  
-    private LocalDateTime createdDate;  
-  
-    /** 更新时间 */  
-    private LocalDateTime updatedDate;  
-  
-    /** 是否删除：0-正常 1-删除 */  
-    private Integer isDeleted;  
-  
-     
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Emp {
+    /** 主键 */
+    private Long id;
+
+    /** 工号 */
+    private String employeeNo;
+
+    /** 姓名 */
+    private String name;
+
+    /** 性别：0-未知 1-男 2-女 */
+    private Integer gender;
+
+    /** 出生日期 */
+    private LocalDate birthDate;
+
+    /** 身份证号 */
+    private String idCard;
+
+    /** 手机号码 */
+    private String phone;
+
+    /** 邮箱 */
+    private String email;
+
+    /** 部门ID */
+    private Long departmentId;
+
+    /** 职位 */
+    private String position;
+
+    /** 入职日期 */
+    private LocalDate hireDate;
+
+    /** 基本工资 */
+    private BigDecimal salary;
+
+    /** 离职日期 */
+    private LocalDate terminationDate;
+
+    /** 创建时间 */
+    private LocalDateTime createdDate;
+
+    /** 更新时间 */
+    private LocalDateTime updatedDate;
+
+    /** 是否删除：0-正常 1-删除 */
+    private Integer isDeleted;
+
+
 }
 ```
 
