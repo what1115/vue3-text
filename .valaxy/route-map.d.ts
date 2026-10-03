@@ -122,6 +122,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/MySQL 练习': RouteRecordInfo<
+      '/posts/MySQL 练习',
+      '/posts/MySQL%20%E7%BB%83%E4%B9%A0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -241,6 +248,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hello-world.md': {
       routes:
         | '/posts/hello-world'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/MySQL 练习.md': {
+      routes:
+        | '/posts/MySQL 练习'
       views:
         | never
       pathParamNames:

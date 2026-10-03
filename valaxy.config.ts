@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '阿凯的Notes',
+      title: '阿凯的笔记本',
     },
 
     pages: [

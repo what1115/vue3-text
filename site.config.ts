@@ -4,7 +4,7 @@ export default defineSiteConfig({
   // TODO: 换成自己的域名
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: '阿凯的 Notes',
+  title: '阿凯的笔记本',
   author: {
     name: '阿凯',
   },
