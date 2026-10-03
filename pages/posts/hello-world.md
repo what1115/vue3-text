@@ -1,10 +1,12 @@
 ---
 title: 我的第一篇文章
 date: 2026-09-12
-tags:
-  - 随笔
+updated: 2026-10-3
 categories:
-  - 生活
+- Valaxy 笔记
+tags:
+  - 笔记
+top: 2
 ---
 
 ## 你好，世界

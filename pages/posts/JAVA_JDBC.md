@@ -1,9 +1,12 @@
-
 ---
 title: java学习
 date: 2026-09-25
+updated: 2026-10-3
+categories:
+- Valaxy 笔记
 tags:
   - 学习
+top: 3
 ---
 
 # Java 初步使用JDBC 操作数据库

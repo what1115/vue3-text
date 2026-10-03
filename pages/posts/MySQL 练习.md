@@ -1,14 +1,13 @@
 ---
 title: 数据库MySQL 练习
 date: 2026-09-27
+updated: 2026-10-3
+categories:
+  - 学习
 tags:
   - MySQL
-categories:
-  - 生活
+top: 5
 ---
-
----
-
 
 
 #  查询所有数据库
