@@ -2,13 +2,13 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   // TODO: 换成自己的域名
-  url: 'https://github.com/what1115/vue3-text/',
+  url: 'https://xu520.kdns.fr/',
   lang: 'zh-CN',
   title: '阿凯的笔记本',
   author: {
     name: '阿凯',
     email: '27005063137@qq.com',  // 必填，别留空
-    link: 'https://what1115.github.io/',
+    link: 'https://github.com/what1115',
   },
   subtitle: '欢迎来到我的小站',
   description: '记录生活、技术与思考',

@@ -108,6 +108,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/累了': RouteRecordInfo<
+      '/posts/累了',
+      '/posts/%E7%B4%AF%E4%BA%86',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026年中秋节': RouteRecordInfo<
       '/posts/2026年中秋节',
       '/posts/2026%E5%B9%B4%E4%B8%AD%E7%A7%8B%E8%8A%82',
@@ -246,6 +253,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/海底.md': {
       routes:
         | '/posts/海底'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/累了.md': {
+      routes:
+        | '/posts/累了'
       views:
         | never
       pathParamNames:
