@@ -101,6 +101,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/海底': RouteRecordInfo<
+      '/posts/海底',
+      '/posts/%E6%B5%B7%E5%BA%95',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026年中秋节': RouteRecordInfo<
       '/posts/2026年中秋节',
       '/posts/2026%E5%B9%B4%E4%B8%AD%E7%A7%8B%E8%8A%82',
@@ -231,6 +238,14 @@ declare module 'vue-router/auto-routes' {
     'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.9_c10dd30d61e0a82513fb05e31482a6aa/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/海底.md': {
+      routes:
+        | '/posts/海底'
       views:
         | never
       pathParamNames:
