@@ -6,7 +6,6 @@ categories:
 - Valaxy 笔记
 tags:
   - 笔记
-top: 2
 ---
 
 ## 你好，世界

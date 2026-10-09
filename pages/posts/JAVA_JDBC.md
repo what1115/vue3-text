@@ -6,7 +6,6 @@ categories:
 - Valaxy 笔记
 tags:
   - 学习
-top: 3
 ---
 
 # Java 初步使用JDBC 操作数据库
