@@ -1,5 +1,5 @@
 ---
-title: :机器学习
+title: 一日聚项目
 date: 2026-10-20
 updated: 2026-10-20
 categories: 学习
