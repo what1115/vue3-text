@@ -1,3 +1,15 @@
+
+---
+title: :机器学习
+date: 2026-10-20
+updated: 2026-10-20
+categories:
+  - 学习
+tags:
+  - python
+---
+
+
 # 方慧 - 作业
 
 ## 环境依赖
